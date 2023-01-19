@@ -2,7 +2,7 @@ name: Java CI
 on: push
 env:
   docker_username: kirill-ivanov-miro
-  docker_password: ${{ secrets.GIT_DOCKER_PAT }}
+  docker_password: ${{ secrets.GITHUB_TOKEN }}
   GIT_COMMIT: ${{ github.sha }}
 jobs:
   Clone-down:
