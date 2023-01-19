@@ -1,4 +1,6 @@
 name: Java CI
+permissions:
+  packages: write
 on: push
 env:
   docker_username: kirill-ivanov-miro
